@@ -1,0 +1,54 @@
+Riak Installation and Steps:
+
+Installation:
+------------
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+$ curl https://packagecloud.io/gpg.key | sudo apt-key add -
+
+Update your repository local database.
+$ echo "deb https://packagecloud.io/basho/riak/ubuntu/ trusty main" | sudo tee -a /etc/apt/sources.list.d/riak.list
+$ echo "deb-src https://packagecloud.io/basho/riak/ubuntu/ trusty main" | sudo tee -a /etc/apt/sources.list.d/riak.list
+
+$ sudo apt-get update
+
+Installs Riak
+$ sudo apt-get install riak
+
+Configuring a Riak cluster involves instructing each node to listen on a non-local interface
+$ sudo vim /etc/riak/riak.conf
+	>> listener.protobuf.internal = 127.0.0.1:8087 to listener.protobuf.internal = <internal-ip>:8087
+	>> listener.http.internal = 127.0.0.1:8087 to listener.http.internal = <internal-ip>:8087
+	>> nodename = riak@127.0.0.1 to nodename = riak@<internal-ip>
+
+Run the riak DB using below command.
+$ sudo systemctl start riak.service
+Check the riak DB status
+$ sudo systemctl status riak.service
+
+
+Verify Riak Cluster Status:
+$ sudo riak-admin test
+	-- Successfully completed 1 read/write cycle to 'riak@192.168.6.30'
+$ curl -v http://192.168.6.18:8098/types/default/props
+	- lists out the properties
+
+Repeat the same steps for other systems as well.
+
+
+Use "riak-admin cluster join" to join the second node to the first node, thereby creating an initial Riak cluster. 
+> sudo riak-admin cluster join riak@192.168.6.30
+
+Repeat the above step for all riak DB servers to make Riak cluster based on the experiment nodes.
+
+Once you add all nodes based on the requirements to the cluster, plan and commit the changes
+
+$ sudo riak-admin cluster plan
+$ sudo riak-admin cluster commit
+
+Use the below command to view the ring members
+$ sudo riak-admin status | grep ring_members
+
+
+Note: If any server is not able to bind to the internal IP address, use the below command to clear its logs and restart.
+$ cd /var/lib/riak/ring && sudo rm -rf * && cd

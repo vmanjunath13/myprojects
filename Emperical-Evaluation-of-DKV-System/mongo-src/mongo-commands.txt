@@ -1,0 +1,125 @@
+Mongo Installation and Steps:
+
+Installation:
+
+	$ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+	$ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+
+	$ sudo apt-get update
+
+	$ sudo apt-get install -y mongodb-org
+
+	Check the status
+	$ sudo systemctl status mongod.service
+
+
+Creating Mongodb Config Server:
+------------------------------
+$ sudo mkdir /data
+$ sudo mkdir /data/configdb
+$ mongod --configsvr --replSet rs0 --port 27010 --bind_ip 192.168.6.30 --dbpath /data/configdb/ --fork --logpath /var/log/shard1_log/mongod.log
+$ mongo --host 192.168.6.30 --port 27010
+	> rs.initiate()
+
+$ sudo mkdir /var/log/query
+$ sudo chmod 777 /var/log/query
+
+Setting up Query Routers (mongos instances):
+-------------------------------------------
+mongos -configdb rs0/192.168.6.30:27010 --port 27011 --bind_ip 192.168.6.30 --fork --logpath /var/log/query/mongod.log
+
+mongo --port 27011 --host 192.168.6.30
+
+	Add Shard1:
+	> sh.addShard("rs1/192.168.6.26:27017")
+
+	Add Shard2:
+	> sh.addShard("rs2/192.168.6.14:27017")
+
+	Add Shard3:
+	> sh.addShard("rs3/192.168.6.33:27017")
+
+	Add Shard4:
+	> sh.addShard("rs4/192.168.6.13:27017")
+
+	Add Shard 5-8:
+	> sh.addShard("rs5/192.168.6.37:27017")
+	> sh.addShard("rs6/192.168.6.38:27017")
+	> sh.addShard("rs7/192.168.6.18:27017")
+	> sh.addShard("rs8/192.168.6.17:27017")
+
+	> db.adminCommand( { listShards: 1 } )
+	> sh.enableSharding("hash_grp1")
+	> sh.shardCollection( "hash_grp1.MyHashCollection", { "key" : "hashed" } )
+
+Note:
+=====
+	Add shards according the experiment. These shards should be up and available before mongos server.
+
+
+Mongodb Shard1:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.26 --replSet rs1 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.26 --port 27017
+	> rs.initiate()
+
+Mongodb Shard2:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.14 --replSet rs2 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.14 --port 27017
+	> rs.initiate()
+
+Mongodb Shard3:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.33 --replSet rs3 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.33 --port 27017
+	> rs.initiate()
+
+Mongodb Shard4:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.13 --replSet rs4 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.13 --port 27017
+	> rs.initiate()
+
+
+
+Mongodb Shard5:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.37 --replSet rs5 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.37 --port 27017
+	> rs.initiate()
+
+Mongodb Shard6:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.38 --replSet rs6 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.38 --port 27017
+	> rs.initiate()
+
+
+
+
+Mongodb Shard7:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.18 --replSet rs7 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.18 --port 27017
+	> rs.initiate()
+
+Mongodb Shard8:
+-------------
+$ sudo mkdir /data/ && sudo mkdir /data/db && sudo chmod 777 -R /data/db && cd /var/log && sudo mkdir shard_log && sudo chmod 777 -R shard_log
+$ mongod --port 27017 --bind_ip 192.168.6.17 --replSet rs8 --shardsvr --dbpath /data/db --fork --logpath /var/log/shard_log/mongod.log
+$ mongo --host 192.168.6.17 --port 27017
+	> rs.initiate()
+
+Referenced Links:
+https://docs.mongodb.com/manual/tutorial/deploy-shard-cluster/
+https://docs.mongodb.com/manual/tutorial/remove-shards-from-cluster/
+https://medium.com/@tudip/mongodb-sharding-replication-and-clusters-d95a6595bd2c
+https://www.javacodegeeks.com/2015/02/setting-up-sharded-mongodb-cluster-in-localhost.html
