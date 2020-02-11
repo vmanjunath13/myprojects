@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="r1_text">Conversion:</string>
+    <string name="r2_text">Miles to Kilometers</string>
+    <string name="r3_text">Kilometers to Miles</string>
+    <string name="r4_text" translatable="false">Miles Value:</string>
+    <string name="r5_text">Convert</string>
+    <string name="r6_text">Kilometers Value:</string>
+</resources>
