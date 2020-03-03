@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:icon="@mipmap/round_help_outline_white_48"
+        android:title="about"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addNote"
+        android:icon="@mipmap/round_note_add_white_48"
+        android:title="addNote"
+        app:showAsAction="always" />
+</menu>
