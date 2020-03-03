@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clearHistory(View v) {
         textView2.setText("");
-        result.setText("");
+        //result.setText("");
     }
 
     @Override
