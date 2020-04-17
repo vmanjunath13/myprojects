@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/aboutAct"
+        android:icon="@drawable/help"
+        android:title="@string/search_id"
+        app:showAsAction="always"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"/>
+
+    <item android:id="@+id/addNewStock"
+        android:icon="@drawable/ic_search_icon"
+        android:title="@string/search_id"
+        app:showAsAction="always"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"/>
+</menu>

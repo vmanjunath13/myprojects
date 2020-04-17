@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example1.vaish.assign4">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example1.vaish.assign4.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example1.vaish.assign4.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.example1.vaish.assign4.MainActivity"
+            tools:targetApi="jelly_bean">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example1.vaish.assign4.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.example1.vaish.assign4.OfficialActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example1.vaish.assign4.MainActivity" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example1.vaish.assign4.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.example1.vaish.assign4.PhotoActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example1.vaish.assign4.OfficialActivity"
+            tools:targetApi="jelly_bean">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example1.vaish.assign4.OfficialActivity" />
+        </activity>
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

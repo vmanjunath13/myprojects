@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Know Your Government</string>
+    <string name="search_id">searchID</string>
+    <string name="about_id">aboutID</string>
+    <string name="address_str">Address :</string>
+    <string name="phone_str">Phone :</string>
+    <string name="email_str">Email :</string>
+    <string name="Website_str">Website :</string>
+    <string name="SerializeGovernmentObject">SerGovObj</string>
+    <string name="title_activity_about">Know Your Government</string>
+    <string name="title_activity_official">Official</string>
+    <string name="title_activity_photo">Detail Photo</string>
+    <string name="saved_address_pref">saved_address_pref</string>
+    <string name="infoText"><a href='https://developers.google.com/civic-information/'>
+        Google Civic \n Information API</a></string>
+    <string name="ofcParty">TextView</string>
+</resources>
