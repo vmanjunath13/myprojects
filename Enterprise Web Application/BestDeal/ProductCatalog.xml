@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+<TVCatalog>
+    
+    <tv id="Sony 75 Inch 4K">
+        <name>Sony 75 Inch 4K</name>
+        <price>2599.99</price>
+        <image>sony1.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+        <accessories>
+            <accessory>Sony Bravia Remote Case</accessory>
+            <accessory>Universal TV Stand Base</accessory>
+            <accessory>Full Motion TV Wall Mount</accessory>
+            <accessory>Remote control holder</accessory>
+        </accessories>
+    </tv>
+
+    <tv id="Sony 70 Inch 4K">
+        <name>Sony 70 Inch 4K</name>
+        <price>2199.99</price>
+        <image>sony2.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+        <accessories>
+            <accessory>Sony Bravia Remote Case</accessory>
+            <accessory>Universal TV Stand Base</accessory>
+            <accessory>Full Motion TV Wall Mount</accessory>
+            <accessory>Remote control holder</accessory>
+        </accessories>
+    </tv>
+
+    <tv id="Sony 55 Inch 4K">
+        <name>Sony 55 Inch 4K</name>
+        <price>1899.99</price>
+        <image>sony3.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>100.0</rebateamount>
+		<count>50</count>
+    </tv>
+
+    <tv id="LG C9 Series">
+        <name>LG C9 Series</name>
+        <price>1599.99</price>
+        <image>LG1.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>90.0</rebateamount>
+		<count>50</count>
+    </tv>
+
+    <tv id="LG B9 Series">
+        <name>LG b9 Series</name>
+        <price>1399.99</price>
+        <image>LG2.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>50.0</rebateamount>
+		<count>50</count>
+    </tv>
+
+    <tv id="LG Nano 8 Series">
+        <name>LG Nano 8 Series</name>
+        <price>1799.99</price>
+        <image>LG3.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>100.0</rebateamount>
+		<count>50</count>
+    </tv>
+
+    <tv id="Samsung 8 Series">
+        <name>Samsung 8 Series</name>
+        <price>2299.99</price>
+        <image>samsung1.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+    </tv>
+
+    <tv id="Samsung 7 Series">
+        <name>Samsung 7 Series</name>
+        <price>1999.99</price>
+        <image>samsung2.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+    </tv>
+
+    <tv id="Samsung QLED">
+        <name>Samsung QLED</name>
+        <price>2099.99</price>
+        <image>samsung3.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+    </tv>
+	
+	<tv id="VIZIO 55">
+        <name>VIZIO 55</name>
+        <price>1199.99</price>
+        <image>vizio1.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>60.0</rebateamount>
+		<count>50</count>
+    </tv>
+	
+	<tv id="VIZIO 65">
+        <name>VIZIO 65</name>
+        <price>1899.99</price>
+        <image>vizio2.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+    </tv>
+	
+	<tv id="Insignia 55 4K UHD TV">
+        <name>Insignia 55 4K UHD TV</name>
+        <price>349.99</price>
+        <image>insignia3.jpg</image>
+        <manufacturer>Insignia</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </tv>
+	
+	<tv id="Insignia 70 4K UHD TV">
+        <name>Insignia 70 4K UHD TV</name>
+        <price>649.99</price>
+        <image>insignia4.jpg</image>
+        <manufacturer>Insignia</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>10.0</rebateamount>
+		<count>50</count>
+    </tv>
+</TVCatalog>
+
+
+<SoundSystemCatalog>
+    <soundsystem id="Sony Micro Hi-Fi Stereo">
+        <name>Sony Micro Hi-Fi Stereo</name>
+        <price>899.99</price>
+        <image>sony4.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>10.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+
+    <soundsystem id="Sony Compact Stereo">
+        <name>Sony Compact Stereo</name>
+        <price>999.99</price>
+        <image>sony5.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>75.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+
+    <soundsystem id="Bose Wave System IV">
+        <name>Bose Wave System IV</name>
+        <price>669.99</price>
+        <image>bose1.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+
+    <soundsystem id="Bose Acoustics 5 Series">
+        <name>Bose Acoustics 5 Series</name>
+        <price>499.99</price>
+        <image>bose2.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+
+    <soundsystem id="Logitech Z906">
+        <name>Logitech Z906</name>
+        <price>349.99</price>
+        <image>logitech1.jpg</image>
+        <manufacturer>Logitech</manufacturer>
+        <condition>New</condition>
+        <discount>20.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+
+    <soundsystem id="Logitech Z313">
+        <name>Logitech Z313</name>
+        <price>449.99</price>
+        <image>logitech2.jpg</image>
+        <manufacturer>Logitech</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+	
+	<soundsystem id="Polk Audio - Blackstone TL1600">
+        <name>Polk Audio - Blackstone TL1600</name>
+        <price>399.99</price>
+        <image>polk1.jpg</image>
+        <manufacturer>Polk</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+	
+	<soundsystem id="Insignia 2.1-Channel 80W">
+        <name>Insignia 2.1-Channel 80W</name>
+        <price>89.99</price>
+        <image>insignia1.jpg</image>
+        <manufacturer>Insignia</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+	
+	<soundsystem id="Insignia 2.0-Channel Mini">
+        <name>Insignia 2.0-Channel Mini</name>
+        <price>49.99</price>
+        <image>insignia2.jpg</image>
+        <manufacturer>Insignia</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </soundsystem>
+</SoundSystemCatalog>
+
+
+<PhoneCatalog>
+    <phone id="IPhone11">
+        <name>Apple IPhone 11</name>
+        <price>699.99</price>
+        <image>apple1.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>2.0</rebateamount>
+		<count>50</count>
+    </phone>
+
+    <phone id="IPhone11 Pro">
+        <name>Apple IPhone 11 Pro</name>
+        <price>999.99</price>
+        <image>apple2.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>12.0</rebateamount>
+		<count>50</count>
+    </phone>
+
+    <phone id="Samsung Galaxy S9">
+        <name>Samsung Galaxy S9</name>
+        <price>499.00</price>
+        <image>samsung4.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </phone>
+
+    <phone id="Samsung Galaxy S10 Plus">
+        <name>Samsung Galaxy S10 Plus</name>
+        <price>599.00</price>
+        <image>samsung5.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </phone>
+
+    <phone id="Google Pixel XL">
+        <name>Google Pixel XL</name>
+        <price>209.00</price>
+        <image>nexus1.jpg</image>
+        <manufacturer>Nexus</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </phone>
+
+    <phone id="Google Pixel 2">
+        <name>Google Pixel 2</name>
+        <price>217.00</price>
+        <image>nexus2.jpg</image>
+        <manufacturer>Nexus</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>2.0</rebateamount>
+		<count>50</count>
+    </phone>
+	
+	<phone id="Moto G Power">
+        <name>Moto G Power</name>
+        <price>249.99</price>
+        <image>moto1.jpg</image>
+        <manufacturer>Moto</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.1</rebateamount>
+		<count>50</count>
+    </phone>
+	
+	<phone id="Moto G Stylus">
+        <name>Moto G Stylus</name>
+        <price>299.99</price>
+        <image>moto2.jpg</image>
+        <manufacturer>Moto</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </phone>
+	
+	<phone id="LG K50">
+        <name>LG K50</name>
+        <price>144.99</price>
+        <image>lg1.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </phone>
+	
+	<phone id="LG K50S">
+        <name>LG K50S</name>
+        <price>149.99</price>
+        <image>lg2.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </phone>
+</PhoneCatalog>
+
+
+<LaptopCatalog>
+    <laptop id="Apple Macbook Pro">
+        <name>Apple Macbook Pro</name>
+        <price>1599.99</price>
+        <image>apple3.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>100.0</discount>
+		<rebateamount>100.0</rebateamount>
+		<count>50</count>
+    </laptop>
+
+    <laptop id="Apple Macbook Air">
+        <name>Apple Macbook Air</name>
+        <price>849.99</price>
+        <image>apple4.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>25.0</discount>
+		<rebateamount>12.0</rebateamount>
+		<count>50</count>
+    </laptop>
+
+    <laptop id="HP Envy X360">
+        <name>HP Envy X360</name>
+        <price>643.99</price>
+        <image>hp1.jpg</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>15.0</rebateamount>
+		<count>50</count>
+    </laptop>
+
+    <laptop id="HP Spectre X360">
+        <name>HP Spectre X360</name>
+        <price>1199.99</price>
+        <image>hp2.jpg</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>110.0</rebateamount>
+		<count>50</count>
+    </laptop>
+
+    <laptop id="Dell XPS 13">
+        <name>Dell XPS 13</name>
+        <price>1090.99</price>
+        <image>dell1.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>110.0</rebateamount>
+		<count>50</count>
+    </laptop>
+
+    <laptop id="Dell XPS 15">
+        <name>Dell XPS 15</name>
+        <price>1399.99</price>
+        <image>dell2.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>120.0</rebateamount>
+		<count>50</count>
+    </laptop>
+	
+	<laptop id="ASUS 15.6 Touch-Screen">
+        <name>ASUS 15.6 Touch-Screen</name>
+        <price>1249.99</price>
+        <image>asus1.jpg</image>
+        <manufacturer>Asus</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>70.0</rebateamount>
+		<count>50</count>
+    </laptop>
+	
+	<laptop id="ASUS VivoBook S15">
+        <name>ASUS VivoBook S15</name>
+        <price>999.99</price>
+        <image>asus2.jpg</image>
+        <manufacturer>Asus</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>32.0</rebateamount>
+		<count>50</count>
+    </laptop>
+	
+	<laptop id="Lenovo ThinkPad L13">
+        <name>Lenovo ThinkPad L13</name>
+        <price>799.99</price>
+        <image>lenovo1.jpg</image>
+        <manufacturer>Lenovo</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>42.0</rebateamount>
+		<count>50</count>
+    </laptop>
+	
+	<laptop id="Lenovo Yoga C940">
+        <name>Lenovo Yoga C940</name>
+        <price>1699.99</price>
+        <image>lenovo2.jpg</image>
+        <manufacturer>Lenovo</manufacturer>
+        <condition>New</condition>
+        <discount>50.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </laptop>
+</LaptopCatalog>
+
+
+<VoiceAssistantCatalog>
+    <voiceassistant id="Echodot">
+        <name>Echodot 3rd Gen</name>
+        <price>49.99</price>
+        <image>amazon1.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+
+    <voiceassistant id="Echo Plus">
+        <name>Echo Plus 2nd Gen</name>
+        <price>149.99</price>
+        <image>amazon2.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+	
+	<voiceassistant id="Echo Studio">
+        <name>Echo Studio</name>
+        <price>199.99</price>
+        <image>amazon3.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+
+    <voiceassistant id="Google Home Mini">
+        <name>Google Home Mini</name>
+        <price>49.99</price>
+        <image>google1.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.5</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+	
+    <voiceassistant id="Google Home Max">
+        <name>Google Home Max</name>
+        <price>129.99</price>
+        <image>google2.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+	
+	<voiceassistant id="Home Pod">
+        <name>Home Pod</name>
+        <price>299.00</price>
+        <image>apple1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.2</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+	
+	<voiceassistant id="Home Speaker 300">
+        <name>Home Speaker 300</name>
+        <price>199.00</price>
+        <image>bose1.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+	
+	<voiceassistant id="JBL Link">
+        <name>JBL Link</name>
+        <price>179.99</price>
+        <image>jbl.jpg</image>
+        <manufacturer>JBL</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </voiceassistant>
+</VoiceAssistantCatalog>
+
+
+<FitnessWatchCatalog>
+    <fitnesswatch id="Fitbit Inspire HR">
+        <name>Fitbit Inspire HR</name>
+        <price>99.99</price>
+        <image>fitbit1.jpg</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+
+    <fitnesswatch id="Fitbit Alta HR">
+        <name>Fitbit Alta HR</name>
+        <price>88.99</price>
+        <image>fitbit2.jpg</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+
+    <fitnesswatch id="Teslasz HR">
+        <name>Teslasz HR</name>
+        <price>28.89</price>
+        <image>teslasz1.jpg</image>
+        <manufacturer>Teslasz</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+
+    <fitnesswatch id="Teslasz I5 Plus">
+        <name>Teslasz I5 Plus</name>
+        <price>11.99</price>
+        <image>teslasz2.jpg</image>
+        <manufacturer>Teslasz</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+
+    <fitnesswatch id="Lintelek Activity Tracker HR">
+        <name>Lintelek Activity Tracker HR</name>
+        <price>27.99</price>
+        <image>lintelek1.jpg</image>
+        <manufacturer>Lintelek</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+
+    <fitnesswatch id="Lintelek Tracker HR">
+        <name>Lintelek Tracker HR</name>
+        <price>27.99</price>
+        <image>lintelek2.jpg</image>
+        <manufacturer>Lintelek</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.7</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+	
+	<fitnesswatch id="Letsfit">
+        <name>Letsfit</name>
+        <price>35.99</price>
+        <image>letsfit1.jpg</image>
+        <manufacturer>Letsfit</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+	
+	<fitnesswatch id="YAMAY 2020 Ver">
+        <name>YAMAY 2020 Ver</name>
+        <price>37.31</price>
+        <image>yamay1.jpg</image>
+        <manufacturer>Yamay</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.2</rebateamount>
+		<count>50</count>
+    </fitnesswatch>
+</FitnessWatchCatalog>
+
+
+<SmartWatchCatalog>
+    <smartwatch id="Apple Watch Series 3">
+        <name>Apple Watch Series 3</name>
+        <price>199.00</price>
+        <image>apple5.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+
+    <smartwatch id="Apple Watch Series 4">
+        <name>Apple Watch Series 4</name>
+        <price>349.00</price>
+        <image>apple6.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+
+    <smartwatch id="Samsung Galaxy Watch Active">
+        <name>Samsung Galaxy Watch Active</name>
+        <price>249.00</price>
+        <image>samsung6.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>12.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+
+    <smartwatch id="Samsung Gear S3">
+        <name>Samsung Gear S3</name>
+        <price>349.00</price>
+        <image>samsung7.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+
+    <smartwatch id="Sony Smartwatch 3">
+        <name>Sony Smartwatch 3</name>
+        <price>199.00</price>
+        <image>sony6.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+
+    <smartwatch id="Sony Smartwatch 2">
+        <name>Sony Smartwatch 2</name>
+        <price>129.00</price>
+        <image>sony7.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+	
+	<smartwatch id="Fossil Sport">
+        <name>Fossil Sport</name>
+        <price>200.00</price>
+        <image>fossil1.jpg</image>
+        <manufacturer>Fossil</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+	
+	<smartwatch id="Honor Magic Watch 2">
+        <name>Honor Magic Watch 2</name>
+        <price>149.99</price>
+        <image>honor1.jpg</image>
+        <manufacturer>Honor</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </smartwatch>
+</SmartWatchCatalog>
+
+
+<HeadPhonesCatalog>
+    <headphone id="Sony WH-CH700N">
+        <name>Sony WH-CH700N</name>
+        <price>149.99</price>
+        <image>sony8.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+
+    <headphone id="Sony WH1000MX3">
+        <name>Sony WH1000MX3</name>
+        <price>279.99</price>
+        <image>sony9.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.2</rebateamount>
+		<count>50</count>
+    </headphone>
+
+    <headphone id="Bose Sound Link">
+        <name>Bose Sound Link</name>
+        <price>189.99</price>
+        <image>bose3.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+
+    <headphone id="Bose Quick Comfort">
+        <name>Bose Quick Comfort</name>
+        <price>229.99</price>
+        <image>bose4.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+
+    <headphone id="Sennheiser HD 4.50">
+        <name>Sennheiser HD 4.50</name>
+        <price>139.99</price>
+        <image>sennheiser1.jpg</image>
+        <manufacturer>Sennheiser</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+
+    <headphone id="Sennheiser HD Pro">
+        <name>Sennheiser HD Pro</name>
+        <price>139.99</price>
+        <image>sennheiser2.jpg</image>
+        <manufacturer>Sennheiser</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+	
+	<headphone id="Plantronics BackBeat Go 810">
+        <name>Plantronics BackBeat Go 810</name>
+        <price>45.99</price>
+        <image>plantronics1.jpg</image>
+        <manufacturer>Plantronics</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+	
+	<headphone id="Jabra Elite">
+        <name>Jabra Elite 45h</name>
+        <price>79.99</price>
+        <image>jabra.jpg</image>
+        <manufacturer>Jabra</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </headphone>
+</HeadPhonesCatalog>
+
+
+<VirtualRealityCatalog>
+    <virtualreality id="HTC VIVE">
+        <name>HTC VIVE</name>
+        <price>899</price>
+        <image>htc1.jpg</image>
+        <manufacturer>HTC</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>12.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+
+    <virtualreality id="HTC VIVE Cosmos">
+        <name>HTC VIVE Cosmos</name>
+        <price>699</price>
+        <image>htc2.jpg</image>
+        <manufacturer>HTC</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>15.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+
+    <virtualreality id="Oculus Quest 2">
+        <name>Oculus Quest 2</name>
+        <price>299</price>
+        <image>oculus1.png</image>
+        <manufacturer>Oculus</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>15.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+	
+	<virtualreality id="Oculus Rift S">
+        <name>Oculus Rift S</name>
+        <price>399</price>
+        <image>oculus2.png</image>
+        <manufacturer>Oculus</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>20.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+	
+	<virtualreality id="Sony PlayStation VR">
+        <name>Sony PlayStation VR</name>
+        <price>349.99</price>
+        <image>sony1vr.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>12.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+	
+	<virtualreality id="Homido V2 Virtual reality">
+        <name>Homido V2 Virtual reality</name>
+        <price>63.99</price>
+        <image>homido.jpg</image>
+        <manufacturer>Homido</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+	
+	<virtualreality id="Samsung Gear VR">
+        <name>Samsung Gear VR</name>
+        <price>124.99</price>
+        <image>samsung8.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+    </virtualreality>
+</VirtualRealityCatalog>
+
+
+<PetTrackerCatalog>
+    <pettracker id="Whistle GO">
+        <name>Whistle GO</name>
+        <price>99.95</price>
+        <image>whistle1.jpg</image>
+        <manufacturer>Whistle</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+    </pettracker>
+
+    <pettracker id="FitBark GPS">
+        <name>FitBark GPS</name>
+        <price>69.95</price>
+        <image>fitbit1.jpg</image>
+        <manufacturer>FitBit</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+    </pettracker>
+	
+	<pettracker id="Tagg GPS">
+        <name>Tagg GPS</name>
+        <price>56.99</price>
+        <image>Tagg1.jpg</image>
+        <manufacturer>Tagg</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+    </pettracker>
+	
+	<pettracker id="PETFON GPS">
+        <name>PETFON GPS Pet Tracker</name>
+        <price>179.99</price>
+        <image>petfon1.jpg</image>
+        <manufacturer>Petfon</manufacturer>
+        <condition>New</condition>
+        <discount>20.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </pettracker>
+	
+	<pettracker id="Jiobit GPS">
+        <name>Jiobit Pet Tracker</name>
+        <price>129.99</price>
+        <image>jiobit1.jpg</image>
+        <manufacturer>JioBit</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+    </pettracker>
+</PetTrackerCatalog>
+
+
+<AccessoryCatalog>
+    <accessory id="Sony Bravia Remote Case">
+        <name>Sony Bravia Remote Case</name>
+        <price>89.99</price>
+        <image>Sony1.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+     </accessory>
+
+    <accessory id="Universal TV Stand Base">
+        <name>Universal TV Stand Base</name>
+        <price>89.99</price>
+        <image>Sony2.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+     </accessory>
+     
+     <accessory id="Full Motion TV Wall Mount">
+        <name>Full Motion TV Wall Mount</name>
+        <price>89.99</price>
+        <image>tv1.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<rebateamount>1.0</rebateamount>
+		<count>50</count>
+     </accessory>
+
+    <accessory id="Remote control holder">
+        <name>Remote control holder</name>
+        <price>29.99</price>
+        <image>tv2.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<rebateamount>0.0</rebateamount>
+		<count>50</count>
+     </accessory>
+</AccessoryCatalog>
+
+</ProductCatalog>
