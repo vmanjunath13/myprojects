@@ -1,0 +1,21 @@
+Customer_Name,CID,Booking_Date,Booking_Time,Provider_Name,Provider_Type,Zip_Code,Review_Rating,Booking_Confirmed
+Kimberly ,user1,12/22/2020,17:00,Thomas Cacciola,Doctor,60616,2,Yes
+Shayna ,user2,12/23/2020,18:00,Laura Bailey,Doctor,60612,3,Yes
+Peter,user3,12/24/2020,9:00,Kristine Campagna,Doctor,60656,4,Yes
+Ruby,user4,12/25/2020,10:00,Kathleen Campbell,Doctor,60040,5,No
+Angel,user5,12/10/2020,16:00,Anthos Training Clubs,HealthClub,60041,5,Yes
+Vaishnavi,user6,12/11/2020,17:00,Make your body,HealthClub,60042,4,Yes
+Chandu,user7,12/12/2020,18:00,Edward elmhrust health and fitness center,HealthClub,60043,3,No
+Marty,user8,12/13/2020,9:00,Pilates Advantage,HealthClub,60044,1,Yes
+Jensen,user9,12/11/2020,15:00,"Cigna HealthCare of St. Louis, Inc.",HealthInsurance,60045,3,No
+Jared,user11,12/12/2020,16:00,Coventry Health and Life Healthhealthinsurance Company ,HealthInsurance,60046,5,Yes
+Misha,user11,12/13/2020,17:00,"Coventry Health Care of Illinois, Inc.",HealthInsurance,61047,4,Yes
+Leonie,user12,12/14/2020,18:00,Union Health Service,HealthInsurance,60048,3,Yes
+Bughead,user4,12/16/2020,10:00,South Shore Hospital ,Hospital,60149,1,Yes
+Elizabeth,user14,12/17/2020,11:00,St Anthony Hospital ,Hospital,60050,2,Yes
+Peter,user5,12/18/2020,12:00,St Bernard Hospital ,Hospital,60051,3,No
+Sanford,user16,12/19/2020,14:00,St Elizabeth Hospital ,Hospital,61152,4,Yes
+Zenia,user7,12/6/2020,15:00,St Joseph Hospital ,Hospital,60053,5,Yes
+Larrissa,user18,12/6/2020,11:00,COLUMBIA PHARMACY INC,Pharmacy,60054,3,Yes
+John,user19,12/7/2020,12:00,"ARMITAGE PHARMACY, INC",Pharmacy,60055,4,No
+Lena,user20,12/8/2020,14:00,CAREPLUS CVS/PHARMACY,Pharmacy,60056,2,Yes

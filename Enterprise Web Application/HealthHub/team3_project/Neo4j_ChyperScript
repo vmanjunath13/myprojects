@@ -1,0 +1,27 @@
+LOAD CSV WITH HEADERS FROM "file:///transactions1.csv" AS line
+WITH line
+MERGE (c:Customer {name: line.Customer_Name})
+MERGE (b:Booking {cid: line.CID, booking_date: line.Booking_Date, booking_time: line.Booking_Time, pname: line.Provider_Name, ptype: line.Provider_Type})
+MERGE (rat:Rating {rating: toInteger(line.Review_Rating)})
+MERGE (z:zip_code {Zip_Code: toInteger(line.Zip_Code)})
+MERGE (s:booking_confirmed {Booking_Confirmed: line.Booking_Confirmed})
+MERGE (c)-[:BOOKED]->(b)
+MERGE (b)-[:HAS_RATING]->(rat)
+MERGE (b)-[:HAS_ZIPCODE]->(z)
+MERGE (b)-[:HAS_STATUS]->(s)
+RETURN line
+
+//Query_1
+MATCH (b:Booking)-[:HAS_RATING]->(rat:Rating), (b)-[:HAS_ZIPCODE]->(z:zip_code),(b)-[:HAS_STATUS]->(s:booking_confirmed)
+where s.Booking_Confirmed = 'Yes'
+RETURN z,b,s
+
+//Query_2
+MATCH (b:Booking)-[:HAS_RATING]->(rat:Rating), (b)-[:HAS_ZIPCODE]->(z:zip_code),(b)-[:HAS_STATUS]->(s:booking_confirmed)
+where s.Booking_Confirmed = 'No'
+RETURN z,b,s
+
+//Query_3
+MATCH (b:Booking)-[:HAS_RATING]->(rat:Rating)
+where rat.rating > 2
+RETURN b,rat

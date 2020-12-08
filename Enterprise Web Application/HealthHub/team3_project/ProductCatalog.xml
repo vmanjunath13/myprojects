@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+<DoctorCatalog>
+	
+	<doctor id="vaish1">
+		<name>vaish1</name>
+		<address>6201 N Broadway, Chicago, IL, 60660</address>
+		<image>doct1.png</image>
+		<speciality>Family Physician</speciality>
+		<experience>16</experience>
+		<fees>150</fees>
+		<type>Doctor</type>
+	</doctor>
+	
+	<doctor id="vaish2">
+		<name>vaish2</name>
+		<address>3001 Michigan Avenue, Chicago, IL, US, 60656</address>
+		<image>doct2.png</image>
+		<speciality>Family Physician</speciality>
+		<experience>20</experience>
+		<fees>200</fees>
+		<type>Doctor</type>
+	</doctor>
+	
+</DoctorCatalog>
+
+<HospitalCatalog>
+	
+	<hospital id="hosp1">
+		<name>Physicians Immediate Care</name>
+		<address>811 S State St, Chicago, IL 60605</address>
+		<image>doct1.png</image>
+		<speciality>Urgent Care</speciality>
+		<experience>7</experience>
+		<fees>250</fees>
+		<type>Hospital</type>
+	</hospital>
+	
+	<hospital id="hosp2">
+		<name>U.S. HealthWorks</name>
+		<address>614 W Monroe St, Chicago, IL 60661</address>
+		<image>doct2.png</image>
+		<speciality>Urgent Care</speciality>
+		<experience>12</experience>
+		<fees>200</fees>
+		<type>Hospital</type>
+	</hospital>
+	
+	<hospital id="hosp3">
+		<name>Ann and Robert H. Lurie Children’s Hospital of Chicago</name>
+		<address>225 E Chicago Ave, Chicago, IL 60611</address>
+		<image>doct2.png</image>
+		<speciality>All Specialities</speciality>
+		<experience>22</experience>
+		<fees>180</fees>
+		<type>Hospital</type>
+	</hospital>
+	
+	
+</HospitalCatalog>
+</ProductCatalog>

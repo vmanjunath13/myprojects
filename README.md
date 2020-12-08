@@ -25,5 +25,7 @@
 	Guided_Project.ipynb - Profitable App Profiles for the App Store and Google Play Markets. 
 	Our goal for this project is to analyze data to help our developers understand what type of apps are likely to attract more users.
 # Enterprise Web Applications
-	BestDeal - An complete end to end e-commerce web application built using Java, J2EE, MySQL, MongoDB, Python Script, HTML, JavaScript, Bootstrap, Jquery, CSS 
-	Detailed description is in ReadMe.txt file inside the BestDeal folder. Output.pdf file has the complete screenshot of the website.
+	BestDeal - A complete end to end e-commerce web application built using Java, J2EE, MySQL, MongoDB, Python Script, HTML, JavaScript, Bootstrap, Jquery, CSS 
+	Detailed description is in ReadMe.txt file inside the BestDeal folder. BestDeal_Output.pdf file has the complete screenshot of the website.
+	HealthHub - A complete end to end e-commerce web application built using Java, J2EE, MySQL, MongoDB, Python Script, HTML, JavaScript, Bootstrap, Jquery, CSS 
+	Detailed description is in ReadMe.txt file inside the HealthHub folder. HealthHub_Output.pdf file has the complete screenshot of the website.

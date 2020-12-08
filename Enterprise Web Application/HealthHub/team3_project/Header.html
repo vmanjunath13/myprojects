@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Health Hub</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Links for Jquery and bootstrap css -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+<!-- jqurey script -->
+$(document).ready(function(){
+
+	$('#myCarousel').carousel({
+	interval: 3000
+})
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+});
+});
+</script>
+
+<script type="text/javascript" src="autocomplete.js"></script>
+
+<style>
+* {
+		box-sizing : unset;
+	}
+	
+.col-md-6{
+		width : 45% ! important;
+	}
+</style>	
+
+
+</head>
+<body onload='init()' style='width:100%; margin: 0px !important; padding: 0 !important; font-family: Georgia, "Times New Roman", Times, serif;	font-size: 12px !important; >
+	<!-- <script type="text/javascript" src="autocomplete.js"></script>background-image: url(images/site/background.jpg) !important;' -->
+	<!-- Start #logo top content of the webpage-->
+	<div id="logo">
+		<table style="float: left">
+			<tr>
+				<td style="valign: top;"><img src="images/site/12.png" alt=""
+					style="height: 80px" /></td>
+			</tr>
+		</table>
+		<div
+			style="float: right; width: 30%; margin-top: 8px; padding: 5px;"> <!-- padding-right: 15px-->
+			<em style="color: black;">Search:</em>
+			<div name="autofillform">
+				<input type="text" name="searchId" value="" class="input"
+					id="searchId" onkeyup="doCompletion()" 
+					placeholder="Eg: Doctors, Hospitals..." style="font-size: 16px; width:75%; padding: 5px;" /> 
+				<div id="auto-row">
+					<table id="complete-table" class="gridtable"
+						style="position: absolute; width: 315px; z-index:8;"></table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr />
+	<!-- end #logo -->
+	<!-- start #header -->
+	<!-- menu in header area the header div ends in utility file where header content right side link gets populated with login id cart and logout option -->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="Home" class="first"><span class="glyphicon glyphicon-home"><span style='padding-left:5px;'>Home</span></span></a></li>
+				<li><a href="ZipCode?link=Doctor"><span class="glyphicon">Doctors</span></a></li>
+				<li><a href="ZipCode?link=Hospital"><span class="glyphicon">Hospitals</span></a></li>
+				<li><a href="ZipCode?link=Insurance"><span class="glyphicon">Insurances</span></a></li>
+				<li><a href="ZipCode?link=Healthclub"><span class="glyphicon">Health-Clubs</span></a></li>
+				<li><a href="ZipCode?link=Pharmacy"><span class="glyphicon">Pharmacy</span></a></li>			  
+			</ul>
+		</div>	
+		<!-- end #menu -->
+		
+				
